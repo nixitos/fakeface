@@ -78,7 +78,7 @@ pyinstaller --noconsole --onefile --add-data "index.html;." --add-data "st.css;.
 
 ---
 
-## 🛠 Технологии
+## Технологии
 
 - **Python 3** — основной язык
 - **pywebview** — встраивание HTML/CSS/JS в нативное окно
