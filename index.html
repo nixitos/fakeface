@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FakeFace · синтез личности</title>
+  <link rel="stylesheet" href="st.css">
+  <link rel="icon" type="image/x-icon" href="icon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>FAKEFACE</h1>
+    <div class="version">v.0.9b // by @nixitos</div>
+  </div>
+
+  <div class="control-box">
+    <div class="param-row">
+      <label>ВОЗРАСТ:</label>
+      <input type="text" id="ageInput" value="29" size="4">
+    </div>
+    <div class="param-row">
+      <label>ПОЛ:</label>
+      <select id="genderSelect">
+        <option value="male">М</option>
+        <option value="female">Ж</option>
+      </select>
+    </div>
+    <div class="param-row">
+      <label>ДЕТИ:</label>
+      <input type="text" id="childrenInput" value="0" size="3">
+      <span class="hint" id="childrenHint"></span>
+    </div>
+    <div class="param-row">
+      <button id="generateBtn">[ GENERATE ]</button>
+    </div>
+  </div>
+
+  <hr class="separator">
+
+  <div class="card" id="identityCard">
+    <div class="card-header">
+      <span>ЛИЧНОЕ ДЕЛО N</span>
+      <span class="stamp" id="genderStamp">M</span>
+    </div>
+    <div class="card-content" id="profileContent">
+      <!-- generated content -->
+      <pre>НАЖМИТЕ GENERATE ДЛЯ СИНТЕЗА</pre>
+    </div>
+  </div>
+
+  <div class="footer">
+    * Фальшивое лицо / FakeFace
+  </div>
+</div>
+
+<script src="faking.json"></script>
+<script src="logic.js"></script>
+</body>
+</html>
