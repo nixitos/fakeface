@@ -146,4 +146,3 @@ fakeface/
 <p align="center">
   <sub>Built with ❤️ and with yummy tea</sub>
 </p>
-```
