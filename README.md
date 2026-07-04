@@ -1,7 +1,7 @@
 # FakeFace
 
 [![Version](https://img.shields.io/badge/version-0.9b-9966cc)](https://github.com/nixitos/fakeface)
-[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](https://github.com/nixitos/fakeface)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](https://github.com/nixitos/fakeface/releases)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nixitos/fakeface/refs/heads/main/icon.ico" alt="FakeFace Logo" width="128" height="128">
